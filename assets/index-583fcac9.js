@@ -1,0 +1,1 @@
+import{_ as o,k as t,o as n,d as r,f as c,e as s}from"./index-e3851947.js";const a={},_=s("h1",null,"这是个人中心页面",-1);function d(l,i){const e=t("router-view");return n(),r("div",null,[_,c(e)])}const u=o(a,[["render",d]]);export{u as default};

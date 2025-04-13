@@ -1,0 +1,1 @@
+import{b as c,o as a,d as r,h as o,e as t,t as l,g as u}from"./index-e3851947.js";const i=t("hr",null,null,-1),_=t("hr",null,null,-1),f={__name:"About",setup(d){const n=c();let e=3;function s(){e++,n.commit("increase",e)}return(m,p)=>(a(),r("div",null,[o("这是About "),i,t("button",{onClick:s}),_,o(" count: "+l(u(e)),1)]))}};export{f as default};
