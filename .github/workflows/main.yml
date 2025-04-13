@@ -19,16 +19,11 @@ jobs:
         run: |
           npm i
           npm run build
-          # 硬性验证构建目录
-          if [ ! -d "build" ]; then
-            echo "❌ 错误：构建目录 'build' 未生成！"
-            exit 1
-          fi
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           branch: gh-pages
-          folder: build  # 与实际目录一致
+          folder: dist  # 与实际目录一致
           token: ${{ secrets.DEPLOY_KEY }}
           clean: true
